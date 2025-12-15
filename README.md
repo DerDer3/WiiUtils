@@ -2,12 +2,15 @@
 Set of command line tools to convert PMP and KCL files into a JSON format. Specifically for usage in my PMP Editor
 
 # Usage
-./WiiUtils examplecli [options] <input_file>
+```text
+./WiiUtils [options] <input_file>
+
 
 Options:
   -kd     Decode a kcl file
   -pd     Decode a pmp file
   -pe     Encode a pmp file
+```
 
 
 ## KCL Decode
